@@ -1,4 +1,10 @@
 ﻿@page "/weather"
+
+@*
+    @attribute [StreamRendering(true)]
+    @rendermode RenderMode.InteractiveServer
+    @rendermode @(new InteractiveServerRenderMode(prerender: false))
+*@
 @attribute [StreamRendering(true)]
 
 <PageTitle>Weather</PageTitle>

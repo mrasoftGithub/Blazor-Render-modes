@@ -1,7 +1,13 @@
 ﻿@page "/counter_client"
-@* @rendermode InteractiveWebAssembly *@
-@rendermode InteractiveAuto
+@* 
+   @rendermode InteractiveWebAssembly
+   @rendermode @(new InteractiveWebAssemblyRenderMode(prerender: false))
 
+   @rendermode InteractiveAuto
+   @rendermode  @(new InteractiveAutoRenderMode(prerender: false))
+*@
+
+@rendermode InteractiveAuto
 
 <PageTitle>Counter client</PageTitle>
 
