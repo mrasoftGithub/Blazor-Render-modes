@@ -1,7 +1,7 @@
 Blazor-Render-modes
 
 # Blazor Render modes
-Voorbeeldcode bij Blog artikel https://www.mrasoft.nl/blazor-render-modes/
+Voorbeeldcode bij Blog artikel https://www.mrasoft.nl/blazor-render-modes/ en https://www.mrasoft.nl/blazor-prerender-modes/
 
 Hier staat een ASP .NET Core 8.0 Blazor Web App. 
 Voor de solution is de Visual Studio 2022 IDE gebruikt. 
